@@ -1,0 +1,24 @@
+{
+  "name": "leaflet-js-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coding-quizzer/leaflet-js-api-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coding-quizzer/leaflet-js-api-test/issues"
+  },
+  "homepage": "https://github.com/coding-quizzer/leaflet-js-api-test#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

@@ -22,13 +22,14 @@ $(() => {
   $pointForm.submit(function(event) {
     event.preventDefault();
     console.log(this);
-    const $inputField = $(this).children('input');
+    const $inputField = $(this).children('input')[0];
     console.log($inputField);
     
     console.log("Here is the post");
     const query = $(this).serialize();
     $.post( "/points", query, data => {
-      console.log(data);
+      $('<p>').text(data).appendTo($('body'));
+      $inputField.value = "";
     })
   })
 });
